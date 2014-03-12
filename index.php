@@ -5,7 +5,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title>skrollr - parallax scrolling for the masses</title>
+	<title>ADWA TEAM</title>
 
 	<link href="style/fixed-positioning.css" rel="stylesheet" type="text/css" />
 	<link href="style/main.css" rel="stylesheet" type="text/css" />
