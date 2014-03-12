@@ -180,12 +180,13 @@ h4 {
 	padding:1em;
 }
 
-#download {
+#contact {
 	width:80%;
 	left:10%;
 	height:80%;
 	padding:3em;
 	border:0 solid #222;
+	background-color: rgb(1, 26, 43) !important;
 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;

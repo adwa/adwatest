@@ -58,7 +58,7 @@
 		<div class="drop" data-6500="left:75%;bottom[bounce]:100%;" data-9500="bottom:0%;">bounce</div>
 	</div>
 
-	<div id="download" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+	<div id="contact" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
 		<center><h2>Kontakt</h2>
 		<p>Napisz do nas.</p></center>
 		 <?php
@@ -80,7 +80,7 @@
 				
 				if($_POST['email']){
 				
-				$adresemail='adwmicro@adwmicro.pl';
+				$adresemail='adwmicro@adwmicro.pl, wasyl@adwmicro.pl';
 				$wiadomosc="Od: $_POST[imienazwisko] ($_POST[email])\n\n$_POST[trescwiadomosci]";
 				$nadawca="From: $_POST[email]";
 					@mail($adresemail, "Formularz kontaktowy z www.adwa.adwmicro.pl", "$wiadomosc", "$nadawca");
