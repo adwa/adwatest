@@ -57,7 +57,7 @@
 			<h2>easing?</h2>
 			<p>sure.</p>
 			<p>let me dim the <span data-3900="" data-4900="color[swing]:rgb(0,0,0);" data-5900="color:rgb(255,255,0);">lights</span> for this one...</p>
-			<p data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:150%;">you can set easings for each property and define own easing functions</p>
+			<p data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:90%;">Lorem Ipsum is simply dummy text</p>
 		</div>
 
 		<div class="drop" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">linear</div>
