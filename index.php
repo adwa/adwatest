@@ -26,14 +26,25 @@
 	</div>
 
 	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
+		<div class="container">
 		<h2>Nasza załoga</h2>
-		<p>Adrian Wojdat  Wasyl Onufriychuk Michael Krasnopolskyi</p>  
-		<p>
-		<img src="images/aboutusphoto/aw-min.jpg"/>	    	
-		<img src="images/aboutusphoto/wo-min.jpg"/>		
-		<img src="images/aboutusphoto/mk-min.jpg"/>
-		</p>
-		<p>PHP,CSS,JS  HTML,CSS,PHP PhotoShop</p>
+		<div class="teammember">
+			<img src="images/aboutusphoto/aw-min.jpg"/>	
+			<p>Adrian Wojdat</p>
+			<h3>PHP,CSS,JS</h3> 
+		</div>
+		<div class="teammember">
+			<img src="images/aboutusphoto/wo-min.jpg"/>
+			<p>Wasyl Onufriychuk</p>
+			<h3>HTML,CSS,PHP</h3> 
+		</div>
+		<div class="teammember">
+			<img src="images/aboutusphoto/mk-min.jpg" class="alfa"/>	
+			<p>Michael Krasnopolskyi</p>
+			<h3>PhotoShop</h3> 
+		</div>
+	</div>
+		
 	</div>
 
 	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
