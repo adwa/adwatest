@@ -59,13 +59,42 @@
 	</div>
 
 	<div id="download" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
-		<h2>the end</h2>
-		<p>by the way, you can also animate colors (you did notice this, didn't you?)</p>
-		<p><strong>Now get this thing on <a href="https://github.com/Prinzhorn/skrollr">GitHub</a> and spread the word, it's open source!</strong> <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://prinzhorn.github.com/skrollr/" data-via="Prinzhorn">Tweet</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
-		<p>Check out more <a href="https://github.com/Prinzhorn/skrollr/tree/master/examples#examples">examples</a>.</p>
-		<p>Handcrafted by <a href="https://twitter.com/Prinzhorn" class="twitter-follow-button" data-show-count="false">Follow @Prinzhorn</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+		<center><h2>Kontakt</h2>
+		<p>Napisz do nas.</p></center>
+		 <?php
+				if(empty($_POST['submit'])){
+			?>
+					<form action="http://adwa.adwmicro.pl/index.php" method="post"> <!--nazwa strony na której znajduje się formularz-->
+							Imię i Nazwisko:<br />
+						<input type="text" name="imienazwisko" style="width:90%;"/><br />
+							E-Mail:<br />
+						<input type="text" name="email" style="width:90%"/><br />
+							Treść wiadomości:<br />
+						<textarea name="trescwiadomosci" cols="30" rows="6" style="width:90%;"></textarea><br />
+						<input type="submit" name="submit" value="Wyślij formularz"/> 
+						<input type="reset" value="Wyczyść"/>
+					</form>
+				<?php
+				/*sprawdzenie wypełnienia wszystkich pól*/
+				}elseif(!empty($_POST['imienazwisko']) && !empty($_POST['email']) && !empty($_POST['trescwiadomosci'])){
+				
+				if($_POST['email']){
+				
+				$adresemail='adwmicro@adwmicro.pl';
+				$wiadomosc="Od: $_POST[imienazwisko] ($_POST[email])\n\n$_POST[trescwiadomosci]";
+				$nadawca="From: $_POST[email]";
+					@mail($adresemail, "Formularz kontaktowy z www.adwa.adwmicro.pl", "$wiadomosc", "$nadawca");
+						echo "<span style=\"color: #00D800; font-weight: bold; \">Dziękujemy, formularz został wysłany.</span>";
+				}
+				else{
+					 echo "<span style=\"color: #FF0000; text-align: center; font-weight: bold;\">Wprowadzony adres E-Mail jest niepoprawny!!!</span>"; 
+					}
+				}
+				else{
+					 echo "<span style=\"color: #FF0000; text-align: center; font-weight: bold;\">Cofnij i wypełnij wszystkie pola formularza!!!</span>"; 
+					}
+		?>
+		
 	</div>
 
 	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
