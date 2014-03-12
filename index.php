@@ -48,15 +48,15 @@
 	</div>
 
 	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
-		<h2>all numeric properties</h2>
-		<p>width, height, padding, font-size, z-index, blah blah blah</p>
+		<h2>Lorem Ipsum</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 	</div>
 
 	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
 		<div id="easing" data-3900="left:100%" data-4600="left:25%;">
-			<h2>easing?</h2>
-			<p>sure.</p>
-			<p>let me dim the <span data-3900="" data-4900="color[swing]:rgb(0,0,0);" data-5900="color:rgb(255,255,0);">lights</span> for this one...</p>
+			<h2>Lorem Ipsum</h2>
+			<p>Lorem Ipsum</p>
+			<p>Is simply dummy text of the printing and<span data-3900="" data-4900="color[swing]:rgb(0,0,0);" data-5900="color:rgb(255,255,0);">typesetting</span> industry.</p>
 			<p data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:90%;">Lorem Ipsum is simply dummy text</p>
 		</div>
 
