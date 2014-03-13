@@ -17,7 +17,7 @@ html, body {
 }
 body {
 	background: #cccccc;
-	background: -webkit-linear-gradient(top, #6fb5f7, #F09393 100%)
+	background: -webkit-linear-gradient(top, #6fb5f7, #F09393 100%);
 	background: -moz-linear-gradient(top, #6fb5f7, #000000 100%);
 	background: -o-linear-gradient(top, #6fb5f7, #000000 100%);
 	background: -ms-linear-gradient(top, #6fb5f7, #000000 100%);
@@ -107,7 +107,7 @@ h4 {
     margin-top:15px;
 	margin-left:-40%;
 	padding:2em;
-    background: rgba(20, 31, 29, 0.83);
+    background: rgba(71, 102, 131, 0.02);
 	text-align:center;
 	border-radius:1em;
     color: #09f;

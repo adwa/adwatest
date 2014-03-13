@@ -19,10 +19,6 @@ require_once('multilanguage.php');
 </head>
 
 <body>
-			<ul  class="fancyNaw">
-			<li id="pl"><a href="?lang=pl">PL</a></li>
-			<li id="eng"><a href="?lang=ang">ENG</a></li>
-						</ul>
 	
 
 		<ul  class="fancyNav">
