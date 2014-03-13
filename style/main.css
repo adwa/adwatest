@@ -65,10 +65,10 @@ h4 {
 	margin:1em 0;
 }
 #progress {
-	height:2%;
-	background:#444;
-	bottom:0;
-	z-index:200;
+    height: 2%;
+    background: rgb(197, 121, 139) !important;
+    bottom: 0;
+    z-index: 200;
 }
 #scrollbar {
 	position:fixed;

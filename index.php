@@ -132,7 +132,6 @@ require_once('multilanguage.php');
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
 	<![endif]-->
-
 	<script type="text/javascript">
 	var s = skrollr.init({
 		edgeStrategy: 'set',
