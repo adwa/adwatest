@@ -11,6 +11,7 @@
 	<link href="style/main.css" rel="stylesheet" type="text/css" />
 	<link href="style/menu.css" rel="stylesheet" type="text/css" />
 	<link href="style/menujen.css" rel="stylesheet" type="text/css" />
+	<link rel="SHORTCUT ICON" href="images/icon.png"type="image/x-icon">
 </head>
 
 <body>
@@ -38,10 +39,15 @@
 		<h2>zrobiliśmy już:</h2>
 		
 		<p>
-		<table class="fortable" align="center" width="800" height="300" border="1">
+		<table class="fortable" align="center" width="800" height="350" >
 		<tr>
 		<td>
 		Serdecznie witamy na naszej stronie/portfolio. Jestemy grupa tworzącą strony internetowe.......
+		</td>
+		</tr>
+		<tr>
+		<td height="300">
+		<img src="images/logo.png" height="100%" width="100%"></img>
 		</td>
 		</tr>
 		</table>
