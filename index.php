@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once('multilanguage.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,15 +20,15 @@
 
 <body>
 			<ul  class="fancyNaw">
-			<li id="home"><a href="">PL</a></li>
-			<li id="news"><a href="">ENG</a></li>
+			<li id="pl"><a href="?lang=pl">PL</a></li>
+			<li id="eng"><a href="?lang=ang">ENG</a></li>
 						</ul>
 	
 
 		<ul  class="fancyNav">
-			<li id="home"><a href="javascript:jumpScroll1()">O nas</a></li>
-			<li id="news"><a href="javascript:jumpScroll2()">Grupa</a></li>
-			<li id="about"><a href="javascript:jumpScroll3()">Kontakt</a></li>
+			<li id="home"><a href="javascript:jumpScroll1()"><?php echo $lang['about']; ?></a></li>
+			<li id="news"><a href="javascript:jumpScroll2()"><?php echo $lang['group']; ?></a></li>
+			<li id="about"><a href="javascript:jumpScroll3()"><?php echo $lang['contact']; ?></a></li>
 			</ul>
 	
 	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -5000px;"></div>
@@ -34,15 +38,15 @@
 	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
 
 	<div id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
-		<h1>O nas</h1>
+		<h1><?php echo $lang['about']; ?></h1>
 		<a name="Onas"></a>
-		<h2>zrobiliśmy już:</h2>
+		<h2><?php echo $lang['wedidit']; ?></h2>
 		
 		<p>
 		<table class="fortable" align="center" width="800" height="350" >
 		<tr>
 		<td>
-		Serdecznie witamy na naszej stronie/portfolio. Jestemy grupa tworzącą strony internetowe.......
+		<?php echo $lang['weare']; ?>
 		</td>
 		</tr>
 		<tr>
