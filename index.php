@@ -56,9 +56,6 @@ require_once('multilanguage.php');
 		</tr>
 		</table>
 		
-		
-		
-		
 		</p>
 		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
 	</div>
@@ -66,22 +63,24 @@ require_once('multilanguage.php');
 	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<div class="container">
 		<h2>Amentes Team Development</h2>
-				<div class="teammember">
-			<img src="images/aboutusphoto/aw-min.jpg"/>	
+		<div class="teammembers">
+            <div class="teammember">
+			<img src="images/aboutusphoto/aw-min.jpg" class="foto"/>
 			<p>Adrian Wojdat</p>
 			<h3>PHP,CSS,JS</h3> 
 		</div>
 		<div class="teammember">
-			<img src="images/aboutusphoto/wo-min.jpg"/>
+			<img src="images/aboutusphoto/wo-min.jpg" class="foto"/>
 			<p>Wasyl Onufriychuk</p>
 			<h3>HTML,CSS,PHP</h3> 
 		</div>
 		<div class="teammember">
-			<img src="images/aboutusphoto/mk-min.jpg" class="alfa"/>	
+			<img src="images/aboutusphoto/mk-min.jpg" class="foto"/>
 			<p>Michael Krasnopolskyi</p>
 			<h3>PhotoShop</h3> 
 		</div>
 	</div>
+</div>
 		
 	</div>
 
@@ -167,7 +166,5 @@ require_once('multilanguage.php');
    	window.scroll(0,15000); 
 	}
 	</script>
-	
 </body>
-
 </html>
