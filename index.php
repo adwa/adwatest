@@ -10,10 +10,14 @@
 	<link href="style/fixed-positioning.css" rel="stylesheet" type="text/css" />
 	<link href="style/main.css" rel="stylesheet" type="text/css" />
 	<link href="style/menu.css" rel="stylesheet" type="text/css" />
+	<link href="style/menujen.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-
+			<ul  class="fancyNaw">
+			<li id="home"><a href="">PL</a></li>
+			<li id="news"><a href="">ENG</a></li>
+						</ul>
 	
 
 		<ul  class="fancyNav">
