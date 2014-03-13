@@ -105,8 +105,8 @@ require_once('multilanguage.php');
 						<input type="text" name="email" style="width:90%"/><br />
 							<?php echo $lang['massage']; ?><br />
 						<textarea name="trescwiadomosci" cols="30" rows="6" style="width:90%;"></textarea><br />
-						<input type="submit" name="submit" value=<?php echo $lang['send']; ?>/> 
-						<input type="reset" value=<?php echo $lang['clear']; ?>/>
+						<input type="submit" name="submit" value="<?php echo $lang['send']; ?>"/> 
+						<input type="reset" value="<?php echo $lang['clear']; ?>"/>
 					</form>
 				<?php
 				/*sprawdzenie wypełnienia wszystkich pól*/
