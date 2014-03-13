@@ -29,10 +29,22 @@
 		<h1>O nas</h1>
 		<a name="Onas"></a>
 		<h2>zrobiliśmy już:</h2>
-		<p><a href="http://test.adwmicro.pl/"><img src="images/demo.png" width="50%"/></a></p>
+		<p>
+		<table align="center" width="800" height="300" border="1">
+		<tr>
+		<td>
+		Serdecznie witamy na naszej strone/portfolio. Jestemy grupa po tworzeniu stron internetowym.......
+		</td>
+		</tr>
+		</table>
+		
+		
+		
+		
+		</p>
 		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
 	</div>
-
+		
 	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<div class="container">
 		<h2>Nasza załoga</h2>
