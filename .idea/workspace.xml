@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d867295d-07a4-4b5a-b47e-5e34cb0154f7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/ang.php" afterPath="$PROJECT_DIR$/lang/ang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/pl.php" afterPath="$PROJECT_DIR$/lang/pl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="adwatest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +37,7 @@
       <file leaf-file-name="ang.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lang/ang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="98" selection-start="348" selection-end="348" vertical-scroll-proportion="0.16596931" vertical-offset="0" max-vertical-offset="717">
+            <state line="7" column="100" selection-start="350" selection-end="350" vertical-scroll-proportion="0.16596931" vertical-offset="0" max-vertical-offset="717">
               <folding />
             </state>
           </provider>
@@ -48,7 +46,7 @@
       <file leaf-file-name="pl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lang/pl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="282" selection-end="282" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="323">
+            <state line="11" column="23" selection-start="354" selection-end="354" vertical-scroll-proportion="-4.576923" vertical-offset="68" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -57,11 +55,11 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="3060">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3043">
               <folding>
-                <marker date="1394735304973" expanded="true" signature="4517:4552" placeholder="..." />
-                <marker date="1394735304973" expanded="true" signature="4644:4698" placeholder="..." />
-                <marker date="1394735304973" expanded="true" signature="4806:4860" placeholder="..." />
+                <marker date="1394736891231" expanded="true" signature="4529:4564" placeholder="..." />
+                <marker date="1394736891231" expanded="true" signature="4656:4710" placeholder="..." />
+                <marker date="1394736891231" expanded="true" signature="4818:4872" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -235,7 +233,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -298,25 +296,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="3060">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3043">
           <folding>
-            <marker date="1394735304973" expanded="true" signature="4517:4552" placeholder="..." />
-            <marker date="1394735304973" expanded="true" signature="4644:4698" placeholder="..." />
-            <marker date="1394735304973" expanded="true" signature="4806:4860" placeholder="..." />
+            <marker date="1394736891231" expanded="true" signature="4529:4564" placeholder="..." />
+            <marker date="1394736891231" expanded="true" signature="4656:4710" placeholder="..." />
+            <marker date="1394736891231" expanded="true" signature="4818:4872" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lang/pl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="282" selection-end="282" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="323">
+        <state line="11" column="23" selection-start="354" selection-end="354" vertical-scroll-proportion="-4.576923" vertical-offset="68" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lang/ang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="98" selection-start="348" selection-end="348" vertical-scroll-proportion="0.16596931" vertical-offset="0" max-vertical-offset="717">
+        <state line="7" column="100" selection-start="350" selection-end="350" vertical-scroll-proportion="0.16596931" vertical-offset="0" max-vertical-offset="717">
           <folding />
         </state>
       </provider>
