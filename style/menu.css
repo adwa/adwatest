@@ -9,12 +9,17 @@ border-radius: 4px;
 box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
 -moz-box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
 -webkit-box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
-position:fixed;
+position:fixed ;
 z-index:9999;
 opacity:0.85;
-
-left:34%;
+left:50%;
+margin-left:-169px;
+ 
+    
 }
+
+   
+
  
 .fancyNav li{
  
@@ -35,6 +40,8 @@ position:relative;
  
 float: left;
 list-style: none;
+
+
 }
 .fancyNav li:after{
  
@@ -67,6 +74,7 @@ transition:0.25s all;
 }
 .fancyNav li:first-child{
 	border-radius: 4px 0 0 4px;
+	
 }
  
 .fancyNav li:first-child:after,
@@ -109,13 +117,20 @@ opacity:1 !important;
 .fancyNav li a{
 color: #5d5d5d;
 display: inline-block;
-font: 20px/1 Lobster,Arial,sans-serif;
+font: 100% Lobster,Arial,sans-serif;
 padding: 12px 35px 14px;
 position: relative;
 text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
 z-index:2;
 text-decoration:none !important;
 white-space:nowrap;
+
+}
+.fortable {
+width:80%;
+left:33.3%;
+
+
 }
  
 

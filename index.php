@@ -13,12 +13,15 @@
 </head>
 
 <body>
+
+	
+
 		<ul  class="fancyNav">
-			<li id="home"><a href="#Onas" >O nas</a></li>
-			<li id="news"><a href="#Zestaw">Zestaw grupy</a></li>
-			<li id="about"><a href="#Kontakt">Kontakt</a></li>
-					
-		</ul>
+			<li id="home"><a href="javascript:jumpScroll1()">O nas</a></li>
+			<li id="news"><a href="javascript:jumpScroll2()">Grupa</a></li>
+			<li id="about"><a href="javascript:jumpScroll3()">Kontakt</a></li>
+			</ul>
+	
 	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
 	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
 	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
@@ -29,8 +32,9 @@
 		<h1>O nas</h1>
 		<a name="Onas"></a>
 		<h2>zrobiliśmy już:</h2>
+		
 		<p>
-		<table align="center" width="800" height="300" border="1">
+		<table class="fortable" align="center" width="800" height="300" border="1">
 		<tr>
 		<td>
 		Serdecznie witamy na naszej strone/portfolio. Jestemy grupa po tworzeniu stron internetowym.......
@@ -48,8 +52,7 @@
 	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<div class="container">
 		<h2>Amentes Team Development</h2>
-		<a name="Zestaw"></a>
-		<div class="teammember">
+				<div class="teammember">
 			<img src="images/aboutusphoto/aw-min.jpg"/>	
 			<p>Adrian Wojdat</p>
 			<h3>PHP,CSS,JS</h3> 
@@ -86,6 +89,7 @@
 		<center><h2>Kontakt</h2>
 		<a name="Kontakt"></a>
 		<p>Napisz do nas.</p></center>
+		
 		 <?php
 				if(empty($_POST['submit'])){
 			?>
@@ -141,6 +145,24 @@
 		}
 	});
 	</script>
+	<script type="text/javascript">
+	 function jumpScroll1() {
+   	window.scroll(0,0); 
+	}
+	</script>
+	</script>
+	<script type="text/javascript">
+	function jumpScroll2() {
+   	window.scroll(0,1000); 
+	}
+	</script>
+	</script>
+	<script type="text/javascript">
+	function jumpScroll3() {
+   	window.scroll(0,15000); 
+	}
+	</script>
+	
 </body>
 
 </html>
