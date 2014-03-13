@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d867295d-07a4-4b5a-b47e-5e34cb0154f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/ang.php" afterPath="$PROJECT_DIR$/lang/ang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/pl.php" afterPath="$PROJECT_DIR$/lang/pl.php" />
     </list>
     <ignored path="adwatest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ang.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ang.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lang/ang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="100" selection-start="350" selection-end="350" vertical-scroll-proportion="0.16596931" vertical-offset="0" max-vertical-offset="717">
+            <state line="7" column="100" selection-start="350" selection-end="350" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pl.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pl.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lang/pl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="354" selection-end="354" vertical-scroll-proportion="-4.576923" vertical-offset="68" max-vertical-offset="391">
+            <state line="7" column="114" selection-start="373" selection-end="373" vertical-scroll-proportion="0.16596931" vertical-offset="0" max-vertical-offset="717">
               <folding />
             </state>
           </provider>
@@ -55,7 +55,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3043">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="89.96154" vertical-offset="2339" max-vertical-offset="3043">
               <folding>
                 <marker date="1394736891231" expanded="true" signature="4529:4564" placeholder="..." />
                 <marker date="1394736891231" expanded="true" signature="4656:4710" placeholder="..." />
@@ -99,9 +99,9 @@
         <option value="$PROJECT_DIR$/style/menujen.css" />
         <option value="$PROJECT_DIR$/style/menu.css" />
         <option value="$PROJECT_DIR$/style/main.css" />
-        <option value="$PROJECT_DIR$/lang/pl.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/lang/ang.php" />
+        <option value="$PROJECT_DIR$/lang/pl.php" />
       </list>
     </option>
   </component>
@@ -296,7 +296,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3043">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="89.96154" vertical-offset="2339" max-vertical-offset="3043">
           <folding>
             <marker date="1394736891231" expanded="true" signature="4529:4564" placeholder="..." />
             <marker date="1394736891231" expanded="true" signature="4656:4710" placeholder="..." />
@@ -305,16 +305,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/pl.php">
+    <entry file="file://$PROJECT_DIR$/lang/ang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="354" selection-end="354" vertical-scroll-proportion="-4.576923" vertical-offset="68" max-vertical-offset="391">
+        <state line="7" column="100" selection-start="350" selection-end="350" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/ang.php">
+    <entry file="file://$PROJECT_DIR$/lang/pl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="100" selection-start="350" selection-end="350" vertical-scroll-proportion="0.16596931" vertical-offset="0" max-vertical-offset="717">
+        <state line="7" column="114" selection-start="373" selection-end="373" vertical-scroll-proportion="0.16596931" vertical-offset="0" max-vertical-offset="717">
           <folding />
         </state>
       </provider>
