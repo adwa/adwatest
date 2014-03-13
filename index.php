@@ -9,9 +9,16 @@
 
 	<link href="style/fixed-positioning.css" rel="stylesheet" type="text/css" />
 	<link href="style/main.css" rel="stylesheet" type="text/css" />
+	<link href="style/menu.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+		<ul  class="fancyNav">
+			<li id="home"><a href="#Onas" >O nas</a></li>
+			<li id="news"><a href="#Zestaw">Zestaw grupy</a></li>
+			<li id="about"><a href="#Kontakt">Kontakt</a></li>
+					
+		</ul>
 	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
 	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
 	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
@@ -20,6 +27,7 @@
 
 	<div id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
 		<h1>O nas</h1>
+		<a name="Onas"></a>
 		<h2>zrobiliśmy już:</h2>
 		<p><a href="http://test.adwmicro.pl/"><img src="images/demo.png" width="50%"/></a></p>
 		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
@@ -28,6 +36,7 @@
 	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<div class="container">
 		<h2>Nasza załoga</h2>
+		<a name="Zestaw"></a>
 		<div class="teammember">
 			<img src="images/aboutusphoto/aw-min.jpg"/>	
 			<p>Adrian Wojdat</p>
@@ -71,6 +80,7 @@
 
 	<div id="contact" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
 		<center><h2>Kontakt</h2>
+		<a name="Kontakt"></a>
 		<p>Napisz do nas.</p></center>
 		 <?php
 				if(empty($_POST['submit'])){
