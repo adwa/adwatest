@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<title>ADWA TEAM</title>
-
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
 	<link href="style/fixed-positioning.css" rel="stylesheet" type="text/css" />
 	<link href="style/main.css" rel="stylesheet" type="text/css" />
 	<link href="style/menu.css" rel="stylesheet" type="text/css" />
@@ -47,7 +47,7 @@
 		
 	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<div class="container">
-		<h2>Nasza załoga</h2>
+		<h2>Amentes Team Development</h2>
 		<a name="Zestaw"></a>
 		<div class="teammember">
 			<img src="images/aboutusphoto/aw-min.jpg"/>	
