@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 require_once('multilanguage.php');
@@ -86,27 +87,27 @@ require_once('multilanguage.php');
 	</div>
 
 	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
-		<h2>Lorem Ipsum</h2>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<h2><?php echo $lang['description']; ?></h2>
+		
 	</div>
 
 	<div id="contact" data-3500="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-4000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
 		<center><h2>Kontakt</h2>
 		<a name="Kontakt"></a>
-		<p>Napisz do nas.</p></center>
+		<p><?php echo $lang['ritetoo']; ?></p></center>
 		
 		 <?php
 				if(empty($_POST['submit'])){
 			?>
 					<form action="http://adwa.adwmicro.pl/index.php" method="post"> <!--nazwa strony na której znajduje się formularz-->
-							Imię i Nazwisko:<br />
+							<?php echo $lang['name']; ?><br />
 						<input type="text" name="imienazwisko" style="width:90%;"/><br />
 							E-Mail:<br />
 						<input type="text" name="email" style="width:90%"/><br />
-							Treść wiadomości:<br />
+							<?php echo $lang['massage']; ?><br />
 						<textarea name="trescwiadomosci" cols="30" rows="6" style="width:90%;"></textarea><br />
-						<input type="submit" name="submit" value="Wyślij formularz"/> 
-						<input type="reset" value="Wyczyść"/>
+						<input type="submit" name="submit" value=<?php echo $lang['send']; ?>/> 
+						<input type="reset" value=<?php echo $lang['clear']; ?>/>
 					</form>
 				<?php
 				/*sprawdzenie wypełnienia wszystkich pól*/
