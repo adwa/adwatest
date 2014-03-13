@@ -26,9 +26,9 @@
 			<li id="about"><a href="javascript:jumpScroll3()">Kontakt</a></li>
 			</ul>
 	
-	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
-	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
-	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -5000px;"></div>
+	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -4000px;"></div>
+	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -3000px;"></div>
 
 	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
 
@@ -41,7 +41,7 @@
 		<table class="fortable" align="center" width="800" height="300" border="1">
 		<tr>
 		<td>
-		Serdecznie witamy na naszej strone/portfolio. Jestemy grupa po tworzeniu stron internetowym.......
+		Serdecznie witamy na naszej stronie/portfolio. Jestemy grupa tworzącą strony internetowe.......
 		</td>
 		</tr>
 		</table>
@@ -80,16 +80,7 @@
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 	</div>
 
-	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
-		<div id="easing" data-3900="left:100%" data-4600="left:25%;">
-			<h2>Lorem Ipsum</h2>
-			<p>Lorem Ipsum</p>
-			<p>Is simply dummy text of the printing and<span data-3900="" data-4900="color[swing]:rgb(0,0,0);" data-5900="color:rgb(255,255,0);">typesetting</span> industry.</p>
-			<p data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:90%;">Lorem Ipsum is simply dummy text</p>
-		</div>
-	</div>
-
-	<div id="contact" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+	<div id="contact" data-3500="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-4000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
 		<center><h2>Kontakt</h2>
 		<a name="Kontakt"></a>
 		<p>Napisz do nas.</p></center>
