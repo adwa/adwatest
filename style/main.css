@@ -17,11 +17,11 @@ html, body {
 }
 body {
 	background: #cccccc;
-	background: -webkit-linear-gradient(top, #6fb5f7, #3498f5 100%);
-	background: -moz-linear-gradient(top, #6fb5f7, #3498f5 100%);
-	background: -o-linear-gradient(top, #6fb5f7, #3498f5 100%);
-	background: -ms-linear-gradient(top, #6fb5f7, #3498f5 100%);
-	background: -linear-gradient(top, #6fb5f7, #3498f5 100%);
+	background: -webkit-linear-gradient(top, #6fb5f7, #000000 100%);
+	background: -moz-linear-gradient(top, #6fb5f7, #000000 100%);
+	background: -o-linear-gradient(top, #6fb5f7, #000000 100%);
+	background: -ms-linear-gradient(top, #6fb5f7, #000000 100%);
+	background: -linear-gradient(top, #6fb5f7, #000000 100%);
 	background-attachment:fixed;
 }
 ol, ul {
@@ -104,11 +104,13 @@ h4 {
 	width:80%;
 	left:50%;
 	top:1em;
+    margin-top:15px;
 	margin-left:-40%;
 	padding:2em;
-	background: rgba(3, 116, 98, 0.83); 
+    background: rgba(20, 31, 29, 0.83);
 	text-align:center;
 	border-radius:1em;
+    color: #09f;
 
 	-webkit-transform-origin:0 0;
 	-moz-transform-origin:0 0;
@@ -132,7 +134,9 @@ h4 {
 	text-align:center;
 	font-size:150%;
 	color: white;
-	.transform-origin(50%, 50%);
+}
+.transform-origin{
+    (50%,50%);
 }
 #properties {
 	width:100%;

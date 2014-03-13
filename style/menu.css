@@ -11,20 +11,12 @@ position:fixed ;
 z-index:9999;
 opacity:0.85;
 left:50%;
-
+margin-top: 5px;
 margin-left:-140px;
  width:300px;
  height:50px;
-  
 }
-
-   
-
- 
-   
- 
-.fancyNav li{ 
-
+.fancyNav li{
 background-color: #f0f0f0;
 background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
 background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
@@ -38,12 +30,8 @@ box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
 position:relative; 
 float: left;
 list-style: none;
-
 width:99px;
 height:50px;
-
-
-
 }
 .fancyNav li:after{ 
 content:'.';
