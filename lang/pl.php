@@ -5,14 +5,10 @@ $lang['group'] = 'Grupa';
 $lang['contact'] = 'Kontakt';
 $lang['wedidit'] = 'Zrobiliśmy już:';
 $lang['weare'] = 'Serdecznie witamy na naszej stronie/portfolio. Jestemy grupa tworzącą strony internetowe.......';
-$lang['description']= 
+$lang['description']= '';
 $lang['ritetoo'] ='Napisz do nas.';
 $lang['name'] ='Imię i Nazwisko:';
 $lang['massage'] ='Treść wiadomości:';
 $lang['send'] ='Wyślij formularz';
 $lang['clear'] ='Clear';
-
-
-
-
 ?>
