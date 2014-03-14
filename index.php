@@ -53,7 +53,7 @@ require_once('multilanguage.php');
 		</p>
 		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
 	</div>
-            <img src="images/mouse.gif" class="mouse">
+            <img src="images/scroll.gif" class="scroll">
 		
 	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<div class="container">
@@ -115,11 +115,11 @@ require_once('multilanguage.php');
 						echo "<span style=\'color: #00D800; font-weight: bold; \'>Dziękujemy, formularz został wysłany.</span>";
 				}
 				else{
-					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Wprowadzony adres E-Mail jest niepoprawny!!!</span>"; 
+					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Wprowadzony adres E-Mail jest niepoprawny!!!</span>";
 					}
 				}
 				else{
-					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Cofnij i wypełnij wszystkie pola formularza!!!</span>"; 
+					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Cofnij i wypełnij wszystkie pola formularza!!!</span>";
 					}
 		?>
 		
