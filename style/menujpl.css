@@ -1,4 +1,4 @@
-.fancyNae{
+.fancyNap{
 overflow: hidden;
 display: inline-block; 
 border-radius: 4px;
@@ -9,15 +9,15 @@ box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
 -webkit-box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
 position:fixed;
 z-index:9999;
-opacity:1;
+opacity:0.85;
 
+right:0px;
 
-right:66px;
  height:50px;
  
 
 }
-.fancyNae li{
+.fancyNap li{
 background-color: #5B4CD9;
 background-image: -webkit-gradient(linear,left top, left bottom,from(#7C71D9), color-stop(0.5,#5B4CD9), color-stop(0.51, #5B4CD9));
 background-image: -moz-linear-gradient(#7C71D9 0%, #5B4CD9 50%, #5B4CD9 51%);
@@ -35,7 +35,7 @@ height:53px;
 opacity:1;
 
 }
-.fancyNae li:after{ 
+.fancyNap li:after{ 
 content:'.';
 text-indent:-9999px;
 overflow:hidden;
@@ -59,40 +59,40 @@ box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
 -o-transition:0.25s all;
 transition:0.25s all;
 }
-.fancyNae li:first-child{
+.fancyNap li:first-child{
 	border-radius: 4px 0 0 4px;	
 } 
-.fancyNae li:first-child:after,
-.fancyNae li.selected:first-child:after{
+.fancyNap li:first-child:after,
+.fancyNap li.selected:first-child:after{
 box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
 -moz-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
 -webkit-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
  border-radius:4px 0 0 4px;
 }
- .fancyNae li:last-child{
+ .fancyNap li:last-child{
 border-radius: 0 4px 4px 0;
 } 
-.fancyNae li:last-child:after,
-.fancyNae li.selected:last-child:after{
+.fancyNap li:last-child:after,
+.fancyNap li.selected:last-child:after{
 box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
 -moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
 -webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff; 
 border-radius:0 4px 4px 0;
 } 
-.fancyNae li:hover:after,
-.fancyNae li.selected:after,
-.fancyNae li:target:after{
+.fancyNap li:hover:after,
+.fancyNap li.selected:after,
+.fancyNap li:target:after{
 opacity:1;
 }
-.fancyNae:hover li.selected:after,
-.fancyNae:hover li:target:after{
+.fancyNav:hover li.selected:after,
+.fancyNav:hover li:target:after{
 opacity:0;
 } 
-.fancyNae li.selected:hover:after,
-.fancyNae li:target:hover:after{
+.fancyNap li.selected:hover:after,
+.fancyNap li:target:hover:after{
 opacity:1 !important;
 }
-.fancyNae li a{
+.fancyNap li a{
 color: #000000;
 display: inline-block;
 font: 24px Lobster,Arial,sans-serif;

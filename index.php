@@ -14,22 +14,27 @@ require_once('multilanguage.php');
 	<link href="style/fixed-positioning.css" rel="stylesheet" type="text/css" />
 	<link href="style/main.css" rel="stylesheet" type="text/css" />
 	<link href="style/menu.css" rel="stylesheet" type="text/css" />
+	<link href="style/menujpl.css" rel="stylesheet" type="text/css" />
 	<link href="style/menujen.css" rel="stylesheet" type="text/css" />
-	<link rel="SHORTCUT ICON" href="images/icon.png"type="image/x-icon">
+		<link rel="SHORTCUT ICON" href="images/icon.png"type="image/x-icon">
 </head>
 
 <body>
-			<ul  class="fancyNaw">
-			<li id="pl"><a href="?lang=pl">PL</a></li>
-			<li id="eng"><a href="?lang=ang">ENG</a></li>
-						</ul>
-	
+				
+	<div class="fancyNaw"></div>
 
 		<ul  class="fancyNav">
 			<li id="home"><a href="javascript:jumpScroll1()"><?php echo $lang['about']; ?></a></li>
 			<li id="news"><a href="javascript:jumpScroll2()"><?php echo $lang['group']; ?></a></li>
 			<li id="about"><a href="javascript:jumpScroll3()"><?php echo $lang['contact']; ?></a></li>
+
 			</ul>
+			<ul  class="fancyNap">
+			<li id="pl"><a href="?lang=pl"><img src="images/PLflag.png" height="100%" width="100%"></a></li>
+			</ul>
+						<ul  class="fancyNae">
+						<li id="eng"><a href="?lang=ang"><img src="images/GBflag.png" height="100%" width="100%"></img></a></li>
+						</ul>
 	
 	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -5000px;"></div>
 	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -4000px;"></div>
@@ -43,14 +48,14 @@ require_once('multilanguage.php');
 		<h2><?php echo $lang['wedidit']; ?></h2>
 		
 		<p>
-		<table class="fortable" align="center" width="800" height="350" >
+		<table class="fortable" align="center"   >
 		<tr>
 		<td>
 		<?php echo $lang['weare']; ?>
 		</td>
 		</tr>
 		<tr>
-		<td height="300">
+		<td height="376" width="664">
 		<img src="images/logo.png" height="100%" width="100%"></img>
 		</td>
 		</tr>
