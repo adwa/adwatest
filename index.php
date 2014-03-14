@@ -19,6 +19,13 @@ require_once('multilanguage.php');
 </head>
 
 <body>
+<<<<<<< HEAD
+=======
+			<ul  class="fancyNaw">
+			<li id="pl"><a href="?lang=pl">PL</a></li>
+			<li id="eng"><a href="?lang=ang">ENG</a></li>
+						</ul>
+>>>>>>> 85e640c1ae75e5e53be9e90970d217ae457cffb3
 	
 
 		<ul  class="fancyNav">
@@ -37,6 +44,10 @@ require_once('multilanguage.php');
 		<h1><?php echo $lang['about']; ?></h1>
 		<a name="Onas"></a>
 		<h2><?php echo $lang['wedidit']; ?></h2>
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 85e640c1ae75e5e53be9e90970d217ae457cffb3
 		<p>
 		<table class="fortable" align="center" width="800" height="350" >
 		<tr>
@@ -50,10 +61,17 @@ require_once('multilanguage.php');
 		</td>
 		</tr>
 		</table>
+<<<<<<< HEAD
 		</p>
 		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
 	</div>
             <img src="images/scroll.gif" class="scroll">
+=======
+		
+		</p>
+		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
+	</div>
+>>>>>>> 85e640c1ae75e5e53be9e90970d217ae457cffb3
 		
 	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<div class="container">
@@ -115,11 +133,19 @@ require_once('multilanguage.php');
 						echo "<span style=\'color: #00D800; font-weight: bold; \'>Dziękujemy, formularz został wysłany.</span>";
 				}
 				else{
+<<<<<<< HEAD
 					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Wprowadzony adres E-Mail jest niepoprawny!!!</span>";
 					}
 				}
 				else{
 					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Cofnij i wypełnij wszystkie pola formularza!!!</span>";
+=======
+					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Wprowadzony adres E-Mail jest niepoprawny!!!</span>"; 
+					}
+				}
+				else{
+					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Cofnij i wypełnij wszystkie pola formularza!!!</span>"; 
+>>>>>>> 85e640c1ae75e5e53be9e90970d217ae457cffb3
 					}
 		?>
 		
@@ -132,6 +158,10 @@ require_once('multilanguage.php');
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
 	<![endif]-->
+<<<<<<< HEAD
+=======
+
+>>>>>>> 85e640c1ae75e5e53be9e90970d217ae457cffb3
 	<script type="text/javascript">
 	var s = skrollr.init({
 		edgeStrategy: 'set',
