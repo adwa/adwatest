@@ -1,102 +1,102 @@
 html, body, div, span, p, a, del, em, img, ol, ul,  fieldset, form, label {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 html, body {
-	line-height: 1;
-	min-height:100%;
-	font-family:Artial, Verdana, sans-serif;
+    line-height: 1;
+    min-height:100%;
+    font-family:Artial, Verdana, sans-serif;
 }
 body {
     background: -webkit-linear-gradient(top, #6fb5f7, #F09393 100%);
-	background: -moz-linear-gradient(top, #6fb5f7, #F09393 100%);
-	background: -o-linear-gradient(top, #6fb5f7, #F09393 100%);
-	background: -ms-linear-gradient(top, #6fb5f7, #F09393 100%);
-	background-attachment:fixed;
+    background: -moz-linear-gradient(top, #6fb5f7, #F09393 100%);
+    background: -o-linear-gradient(top, #6fb5f7, #F09393 100%);
+    background: -ms-linear-gradient(top, #6fb5f7, #F09393 100%);
+    background-attachment:fixed;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 p {
-	margin:10px 0px 30px 10px;
+    margin:10px 0px 30px 10px;
     text-align:left;
 }
 q {
-	font-style:italic;
-	color:#333;
+    font-style:italic;
+    color:#333;
 }
 h1 {
-	font-size:2.91em;
-	margin:0;
+    font-size:2.91em;
+    margin:0;
 }
 h1 > small {
-	text-align:right;
-	display:inline-block;
-	font-size:.71em;
-	text-indent:15em;
-	color:#444;
+    text-align:right;
+    display:inline-block;
+    font-size:.71em;
+    text-indent:15em;
+    color:#444;
 }
 h2 {
-color: inherit;
-font-size: 1.91em;
-margin: 1em 0 1em 0;
+    color: inherit;
+    font-size: 1.91em;
+    margin: 1em 0 1em 0;
 }
 h2:first-child {
-	margin-top:0;
+    margin-top:0;
 }
 h3 {
-	color:#333;
-	font-size:1.41em;
-	margin:1em 0;
+    color:#333;
+    font-size:1.41em;
+    margin:1em 0;
 }
 h4 {
-	color:#444;
-	font-size:1.11em;
-	margin:1em 0;
+    color:#444;
+    font-size:1.11em;
+    margin:1em 0;
 }
 #progress {
-	height:2%;
-	background: rgba(236, 21, 96, 0.38) !important;
-	bottom:0;
-	z-index:200;
+    height:2%;
+    background: rgba(236, 21, 96, 0.38) !important;
+    bottom:0;
+    z-index:200;
 }
 #scrollbar {
-	position:fixed;
-	right:2px;
-	height:50px;
-	width:6px;
-	background:#444;
-	background:rgba(0,0,0,0.6);
-	border:1px solid rgba(255,255,255,0.6);
-	z-index:300;
-	border-radius:3px;
+    position:fixed;
+    right:2px;
+    height:50px;
+    width:6px;
+    background:#444;
+    background:rgba(0,0,0,0.6);
+    border:1px solid rgba(255,255,255,0.6);
+    z-index:300;
+    border-radius:3px;
 }
 .skrollr-desktop #scrollbar {
-	display:none;
+    display:none;
 }
 #bg1, #bg2, #bg3 {
-	z-index:50;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:url(../images/bubbles.png) repeat 0 0;
+    z-index:50;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:url(../images/bubbles.png) repeat 0 0;
 }
 #bg2 {
-	z-index:49;
-	background-image:url(../images/bubbles2.png);
+    z-index:49;
+    background-image:url(../images/bubbles2.png);
 }
 #bg3 {
-	z-index:48;
-	background-image:url(../images/bubbles3.png);
+    z-index:48;
+    background-image:url(../images/bubbles3.png);
 }
 #intro {
     font-family: 'Raleway', sans-serif;
@@ -122,64 +122,64 @@ h4 {
     box-sizing: border-box;
 }
 #intro .arrows {
-	font-size:2em;
-	color:#09f;
+    font-size:2em;
+    color:#09f;
     margin-left: 45%;
 }
 #transform {
-	width:70%;
-	left:50%;
-	top:20%;
-	margin-left:-35%;
-	text-align:center;
-	font-size:150%;
-	color: white;
+    width:70%;
+    left:50%;
+    top:20%;
+    margin-left:-35%;
+    text-align:center;
+    font-size:150%;
+    color: white;
 }
 .transform-origin{
-    (50%,50%);
+(50%,50%);
 }
 #properties {
-	width:100%;
-	height:100%;
-	padding-top:10%;
-	text-align:center;
-	color: white;
-	font-size:250%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    width:100%;
+    height:100%;
+    padding-top:10%;
+    text-align:center;
+    color: white;
+    font-size:250%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 #easing_wrapper {
-	width:100%;
-	height:100%;
+    width:100%;
+    height:100%;
 }
 #easing {
-	top:10%;
-	width:50%;
-	z-index:101;
-	color: white !important;
-	font-size: 250%;
+    top:10%;
+    width:50%;
+    z-index:101;
+    color: white !important;
+    font-size: 250%;
 }
 .drop {
-	background:#09f;
-	font-weight:bold;
-	padding:1em;
+    background:#09f;
+    font-weight:bold;
+    padding:1em;
 }
 #contact {
-	width:80%;
-	left:10%;
-	height:80%;
-	padding:3em;
-	border:0 solid #222;
-	background-color: rgb(1, 26, 43) !important;
-	color: white;
-	opacity: 0.8;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    width:80%;
+    left:10%;
+    height:80%;
+    padding:3em;
+    border:0 solid #222;
+    background-color: rgb(1, 26, 43) !important;
+    color: white;
+    opacity: 0.8;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 .twitter-share-button, .twitter-follow-button {
-	vertical-align:middle;
+    vertical-align:middle;
 }
 .teammember {
     min-width: 20%;
@@ -188,7 +188,7 @@ h4 {
     margin-left: 5%;
 }
 .teammembers{
-    margin-left: 10%;
+    margin-left: 0%;
 }
 .container{
     width: 100%;
@@ -204,8 +204,8 @@ h4 {
     font-weight: bold;
 }
 .foto{
-    width:70%;
-    height:70%;
+    width:100%;
+    height:100%;
 }
 .logo{
     width:30%;
@@ -226,6 +226,30 @@ h4 {
         height: 15%;
         text-align: left;
     }
+    p {
+        margin: 10px 0px 30px 10px;
+        text-align: left;
+        font-size: 0.7em;
+    }
+    .foto {
+        width: 89%;
+        height: 40%;
+    }
+    .teammember {
+        min-width: 20%;
+        font-size: 60%;
+        float: left;
+        margin-left: -2%;
+        width: 35%;
+    }
+    .teammembers {
+        margin-left: 0%;
+    }
+    .container {
+        width: 100%;
+        clear: both;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 450px) {
     .fortable{
@@ -240,6 +264,37 @@ h4 {
         width: 106%;
         height: 13%;
         text-align: left;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .logo {
+        width: 62%;
+        height: 15%;
+        text-align: left;
+    }
+    p {
+        margin: 10px 0px 30px 10px;
+        text-align: left;
+        font-size: 0.7em;
+    }
+    .foto {
+        width: 89%;
+        height: 40%;
+    }
+    .teammember {
+        min-width: 20%;
+        font-size: 60%;
+        float: left;
+        margin-left: -2%;
+        width: 35%;
+    }
+    .teammembers {
+        margin-left: 0%;
+    }
+    .container {
+        width: 100%;
+        clear: both;
+        text-align: center;
     }
 }
 
