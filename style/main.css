@@ -26,8 +26,8 @@ ol, ul {
 	list-style: none;
 }
 p {
-	margin:1em 0;
-	line-height:1.1em;
+	margin:10px 0px 30px 10px;
+    text-align:left;
 }
 q {
 	font-style:italic;
@@ -100,24 +100,26 @@ h4 {
 }
 #intro {
     font-family: 'Raleway', sans-serif;
-	width:80%;
-	left:50%;
-	top:1em;
-    margin-top:15px;
-	margin-left:-40%;
-	padding:2em;
-    background: rgba(153, 233, 218, 0);
-	text-align:center;
-	border-radius:1em;
+    width: 80%;
+    height: 84%;
+    left: 50%;
+    line-height: 32px;
+    top: 1em;
+    margin-top: 4%;
+    margin-left: -40%;
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.56);
+    text-align: center;
+    border-radius: 1em;
     color: #000;
-	-webkit-transform-origin:0 0;
-	-moz-transform-origin:0 0;
-	-ms-transform-origin:0 0;
-	-o-transform-origin:0 0;
-	transform-origin:0 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 #intro .arrows {
 	font-size:2em;
@@ -193,9 +195,20 @@ h4 {
     text-align: center;
 }
 .fortable{
-width:80%;
+    width:82%;
+    height:100%;
+    font-size: 1.4em !important;
+    line-height: 1.5em;
+    margin-top: -3%;
+    font-weight: bold;
 }
 .foto{
     width:70%;
     height:70%;
+}
+.logo{
+    width:30%;
+    height:25%;
+    text-align: left;
+
 }
