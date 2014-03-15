@@ -18,6 +18,7 @@ require_once('multilanguage.php');
 	<link href="style/menujen.css" rel="stylesheet" type="text/css" />
 	<link rel="SHORTCUT ICON" href="images/icon.png"type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Flavors' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
