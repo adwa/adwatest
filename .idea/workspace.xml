@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d867295d-07a4-4b5a-b47e-5e34cb0154f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main.css" afterPath="$PROJECT_DIR$/style/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="adwatest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="228" column="22" selection-start="4043" selection-end="4043" vertical-scroll-proportion="0.81695825" vertical-offset="3269" max-vertical-offset="4097">
+            <state line="227" column="5" selection-start="4009" selection-end="4009" vertical-scroll-proportion="0.5652759" vertical-offset="3439" max-vertical-offset="4267">
               <folding />
             </state>
           </provider>
@@ -485,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="22" selection-start="4043" selection-end="4043" vertical-scroll-proportion="0.81695825" vertical-offset="3269" max-vertical-offset="4097">
+        <state line="227" column="5" selection-start="4009" selection-end="4009" vertical-scroll-proportion="0.5652759" vertical-offset="3439" max-vertical-offset="4267">
           <folding />
         </state>
       </provider>
