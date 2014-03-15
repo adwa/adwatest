@@ -49,24 +49,20 @@ require_once('multilanguage.php');
 		<h2><?php echo $lang['wedidit']; ?></h2>
 		
 		<p>
-		<table class="fortable" align="center"   >
-		<tr>
-		<td>
-		<?php echo $lang['weare']; ?>
-		</td>
-		</tr>
-		<tr>
-		<td height="376" width="664">
-		<img src="images/logo.png" height="100%" width="100%"></img>
-		</td>
-		</tr>
-		</table>
-		
-		</p>
-		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
-	</div>
-		
-	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
+        <table class="fortable" align="center">
+            <tr>
+                <td height="100%" width="100%">
+                    <img src="images/logo.png" class="logo" align="left"></img>
+                    <p><?php echo $lang['weare']; ?></p>
+                    <p class="arrows">▼&nbsp;▼&nbsp;▼</p>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<div class="container">
 		<h2>Amentes Team Development</h2>
 		<div class="teammembers">

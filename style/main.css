@@ -124,6 +124,7 @@ h4 {
 #intro .arrows {
 	font-size:2em;
 	color:#09f;
+    margin-left: 45%;
 }
 #transform {
 	width:70%;
@@ -210,5 +211,25 @@ h4 {
     width:30%;
     height:25%;
     text-align: left;
-
 }
+@media screen and (max-width: 750px) {
+    .fortable{
+        width:82%;
+        height:100%;
+        font-size: 1.0em !important;
+        line-height: 1.5em;
+        margin-top: -3%;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 450px) {
+    .fortable{
+        width:82%;
+        height:100%;
+        font-size: 0.7em !important;
+        line-height: 1.5em;
+        margin-top: -3%;
+        font-weight: bold;
+    }
+}
+
