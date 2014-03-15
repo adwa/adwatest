@@ -23,7 +23,7 @@
     border-right: 1px solid rgba(9, 9, 9, 0.125);
     box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
     -moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
-    -webkit-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+    -webkit-box-shadow: -5px 3px 0px -3px rgba(255, 255, 255, 0.6) inset;
     position: relative;
     float: left;
     list-style: none;
