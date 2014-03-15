@@ -18,7 +18,6 @@ require_once('multilanguage.php');
 	<link href="style/menujen.css" rel="stylesheet" type="text/css" />
 	<link rel="SHORTCUT ICON" href="images/icon.png"type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Flavors' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -49,18 +48,22 @@ require_once('multilanguage.php');
 		<a name="Onas"></a>
 		<h2><?php echo $lang['wedidit']; ?></h2>
 		
-
-		<table class="fortable" align="center">
+		<p>
+		<table class="fortable" align="center"   >
 		<tr>
-		<td height="100%" width="100%">
-            <img src="images/logo.png" class="logo" align="left"></img>
-            <p><?php echo $lang['weare']; ?></p>
-           <center> <p class="arrows">▼&nbsp;▼&nbsp;▼</p></center>
-        </td>
+		<td>
+		<?php echo $lang['weare']; ?>
+		</td>
 		</tr>
-
+		<tr>
+		<td height="376" width="664">
+		<img src="images/logo.png" height="100%" width="100%"></img>
+		</td>
+		</tr>
 		</table>
 		
+		</p>
+		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
 	</div>
 		
 	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
@@ -68,17 +71,17 @@ require_once('multilanguage.php');
 		<h2>Amentes Team Development</h2>
 		<div class="teammembers">
             <div class="teammember">
-			<img src="images/aboutusphoto/aw-min.jpg" class="foto"/>
+			<img src="images/aboutusphoto/aw-min.png" class="foto"/>
 			<p>Adrian Wojdat</p>
 			<h3>PHP,CSS,JS</h3> 
 		</div>
 		<div class="teammember">
-			<img src="images/aboutusphoto/wo-min.jpg" class="foto"/>
+			<img src="images/aboutusphoto/wo-min.png" class="foto"/>
 			<p>Wasyl Onufriychuk</p>
 			<h3>HTML,CSS,PHP</h3> 
 		</div>
 		<div class="teammember">
-			<img src="images/aboutusphoto/mk-min.jpg" class="foto"/>
+			<img src="images/aboutusphoto/mk-min.png" class="foto"/>
 			<p>Michael Krasnopolskyi</p>
 			<h3>PhotoShop</h3> 
 		</div>
