@@ -10,7 +10,7 @@
     position: fixed;
     z-index: 9999;
     opacity: 1;
-    margin-left: 20%;
+    
 }
 
 .fancyNav li:after {
