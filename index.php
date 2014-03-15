@@ -58,25 +58,27 @@ require_once('multilanguage.php');
 
 
     <div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
-		<div class="container">
-		<h2>Amentes Team Development</h2>
-		<div class="teammembers">
-            <div class="teammember">
-			<img src="images/aboutusphoto/aw-min.png" class="foto"/>
-			<p>Adrian Wojdat</p>
-			<h3>PHP,CSS,JS</h3> 
-		</div>
-		<div class="teammember">
-			<img src="images/aboutusphoto/wo-min.png" class="foto"/>
-			<p>Wasyl Onufriychuk</p>
-			<h3>HTML,CSS,PHP</h3> 
-		</div>
-		<div class="teammember">
-			<img src="images/aboutusphoto/mk-min.png" class="foto"/>
-			<p>Michael Krasnopolskyi</p>
-			<h3>PhotoShop</h3> 
-		</div>
-	</div>
+		<table class="teamtable">
+            <tr>
+            <td colspan="3"><h2>Amentes Team Development</h2></td>
+            </tr>
+            <tr class="ourphoto">
+                <td width="33.3%"><img src="images/aboutusphoto/aw-min.png" class="foto"/></td>
+                <td width="33.3%"><img src="images/aboutusphoto/wo-min.png" class="foto"/></td>
+                <td width="33.3%"><img src="images/aboutusphoto/mk-min.png" class="foto"/></td>
+            </tr>
+            <tr class="my">
+                <td>Adrian Wojdat</td>
+                <td>Wasyl Onufriychuk</td>
+                <td>Michael Krasnopolskyi</td>
+            </tr>
+            <tr class="skils">
+                <td>PHP,CSS,JS,RoR</td>
+                <td>HTML,CSS,PHP</td>
+                <td>PhotoShop</td>
+</td>
+            </tr>
+        </table>
 </div>
 	</div>
 	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">

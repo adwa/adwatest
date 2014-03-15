@@ -56,7 +56,7 @@ h3 {
     color: #333;
     font-size: 1.41em;
     margin: 0em 0;
-    margin-left: 165px;
+    margin-left: 0px;
     margin-top: -51px;
 }
 h4 {
@@ -64,10 +64,9 @@ h4 {
     font-size:1.11em;
     margin:1em 0;
 }
-h6{
-    margin:10px 0px 30px 10px;
-    text-align:left
-
+h6 {
+    margin: 26px 0px 74px 80px;
+    text-align: left;
 }
 #progress {
     height:2%;
@@ -134,12 +133,12 @@ h6{
     margin-left: 45%;
 }
 #transform {
-    width:70%;
-    left:50%;
-    top:20%;
-    margin-left:-35%;
-    text-align:center;
-    font-size:150%;
+    width: 74%;
+    left: 48%;
+    top: 20%;
+    margin-left: -35%;
+    text-align: center;
+    font-size: 86%;
     color: white;
 }
 .transform-origin{
@@ -194,10 +193,19 @@ h6{
     font-size: 95% !important;
     text-align: left !important;
     float: left;
-    margin-left: 1%;
+    margin-left: 6%;
 }
 .teammembers {
-    margin-left: -6%;
+    margin-left: -2%;
+    width: 100%;
+}
+.teamtable {
+    width: 100%;
+    height: 80%;
+    font-size: 1.4em !important;
+    line-height: 1.5em;
+    margin-top: -3%;
+    font-weight: bold;
 }
 .container{
     width: 100%;
@@ -212,9 +220,9 @@ h6{
     margin-top: -3%;
     font-weight: bold;
 }
-.foto{
-    width:100%;
-    height:100%;
+.foto {
+    width: 70%;
+    height: 100%;
 }
 .logo{
     width:30%;
@@ -235,30 +243,8 @@ h6{
         height: 15%;
         text-align: left;
     }
-    p {
-        margin: 10px 0px 30px 10px;
-        text-align: left;
-        font-size: 0.7em;
-    }
-    .foto {
-        width: 89%;
-        height: 40%;
-    }
-    .teammember {
-        min-width: 20%;
-        font-size: 60%;
-        float: left;
-        margin-left: -2%;
-        width: 35%;
-    }
-    .teammembers {
-        margin-left: 0%;
-    }
-    .container {
-        width: 100%;
-        clear: both;
-        text-align: center;
-    }
+  
+
 }
 @media screen and (max-width: 450px) {
     .fortable{
@@ -286,24 +272,23 @@ h6{
         text-align: left;
         font-size: 0.7em;
     }
-    .foto {
-        width: 89%;
-        height: 40%;
-    }
-    .teammember {
-        min-width: 20%;
-        font-size: 60%;
-        float: left;
-        margin-left: -2%;
-        width: 35%;
-    }
-    .teammembers {
-        margin-left: 0%;
-    }
-    .container {
-        width: 100%;
-        clear: both;
-        text-align: center;
-    }
+
+}
+.skils {
+    width: 30%;
+    height: 60%;
+    font-size: 21px !important;
+    color: black;
+}
+.my {
+    width: 30%;
+    height: 20%;
+    font-size: 100% !important;
+    color: black;
+    line-height: 2;
 }
 
+.ourphoto{
+    width: 30%;
+    height: 20%;
+}
