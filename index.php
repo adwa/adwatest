@@ -6,9 +6,7 @@ require_once('multilanguage.php');
 <html>
 <head>
 	<meta charset="utf-8">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
 	<title>ADWA TEAM</title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
 	<link href="style/fixed-positioning.css" rel="stylesheet" type="text/css" />
@@ -19,11 +17,8 @@ require_once('multilanguage.php');
 	<link rel="SHORTCUT ICON" href="images/icon.png"type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Flavors' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-				
 	<div class="fancyNaw"></div>
-
 		<ul  class="fancyNav">
 			<li id="home"><a href="javascript:jumpScroll1()"><?php echo $lang['about']; ?></a></li>
 			<li id="news"><a href="javascript:jumpScroll2()"><?php echo $lang['group']; ?></a></li>
@@ -83,21 +78,16 @@ require_once('multilanguage.php');
 		</div>
 	</div>
 </div>
-		
 	</div>
-
 	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
 		<h2><?php echo $lang['description']; ?></h2>
-		
 	</div>
-
 	<div id="contact" data-3500="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-4000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
 		<center><h2>Kontakt</h2>
 		<a name="Kontakt"></a>
 		<p><?php echo $lang['ritetoo']; ?></p></center>
-		
 		 <?php
-				if(empty($_POST['submit'])){
+         if(empty($_POST['submit'])){
 			?>
 					<form action="http://adwa.adwmicro.pl/index.php" method="post"> <!--nazwa strony na której znajduje się formularz-->
 							<?php echo $lang['name']; ?><br />
