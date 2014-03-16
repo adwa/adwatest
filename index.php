@@ -73,8 +73,8 @@ require_once('multilanguage.php');
                 <td><h6>Michael Krasnopolskyi</h6></td>
             </tr>
             <tr class="skils">
-                <td><h5>PHP,CSS,JS,RoR</h5></td>
-                <td><h5>HTML,CSS,PHP</h5></td>
+                <td><h5>PHP,CSS,</wbr>JS,RoR</h5></td>
+                <td><h5>HTML,CSS,</wbr>PHP</h5></td>
                 <td><h5>PhotoShop</h5></td>
 </td>
             </tr>
