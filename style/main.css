@@ -176,18 +176,20 @@ h6 {
     padding:1em;
 }
 #contact {
-    width: 35%;
-    left: 33%;
-    height: 63%;
+    width: 100%;
+    left: 0%;
+    height: 100%;
     padding: 3em;
     border: 0 solid #222;
-    background-image: url("../images/kosz.jpg") !important;
+    background-image: url("../images/t1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: white;
     opacity: 0.8;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 10%;
+    margin-top: -5%;
 }
 .twitter-share-button, .twitter-follow-button {
     vertical-align:middle;

@@ -80,11 +80,11 @@ require_once('multilanguage.php');
             </tr>
         </table>
 </div>
-	</div>
 	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
 		<h2><?php echo $lang['description']; ?></h2>
 	</div>
-	<div id="contact" data-3500="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-4000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+
+	<div id="contact" data-3500="top[cubic]:130%;0em;" data-4000="top:10%;">
 		<center><h2>Kontakt</h2>
 		<a name="Kontakt"></a>
 		<p><?php echo $lang['ritetoo']; ?></p></center>
@@ -104,9 +104,9 @@ require_once('multilanguage.php');
 				<?php
 				/*sprawdzenie wypełnienia wszystkich pól*/
 				}elseif(!empty($_POST['imienazwisko']) && !empty($_POST['email']) && !empty($_POST['trescwiadomosci'])){
-				
+
 				if($_POST['email']){
-				
+
 				$adresemail='adwmicro@adwmicro.pl, wasyl@adwmicro.pl';
 				$wiadomosc="Od: $_POST[imienazwisko] ($_POST[email])\n\n$_POST[trescwiadomosci]";
 				$nadawca="From: $_POST[email]";
@@ -114,15 +114,16 @@ require_once('multilanguage.php');
 						echo "<span style=\'color: #00D800; font-weight: bold; \'>Dziękujemy, formularz został wysłany.</span>";
 				}
 				else{
-					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Wprowadzony adres E-Mail jest niepoprawny!!!</span>"; 
+					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Wprowadzony adres E-Mail jest niepoprawny!!!</span>";
 					}
 				}
 				else{
-					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Cofnij i wypełnij wszystkie pola formularza!!!</span>"; 
+					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Cofnij i wypełnij wszystkie pola formularza!!!</span>";
 					}
 		?>
 		
 	</div>
+
 
 	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
 
