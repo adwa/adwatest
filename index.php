@@ -82,28 +82,27 @@ require_once('multilanguage.php');
         <div id="contact" data-3500="top[cubic]:130%;0em;" data-4000="top:10%;">
 		<center><h2>Kontakt</h2>
 		<a name="Kontakt"></a>
-		<p><?php echo $lang['ritetoo']; ?></p></center>
 		 <?php
-         if(empty($_POST['submit'])){
+		         if(empty($_POST['submit'])){
 			?>
              <div id="form">
 					<form action="http://adwa.adwmicro.pl/index.php" method="post"> <!--nazwa strony na której znajduje się formularz-->
-							<?php echo $lang['name']; ?><br />
-						<input type="text" name="imienazwisko" style="width:90%;"/><br />
-							E-Mail:<br />
-						<input type="text" name="email" style="width:90%"/><br />
-							<?php echo $lang['massage']; ?><br />
-						<textarea name="trescwiadomosci" cols="30" rows="6" style="width:90%;"></textarea><br />
+							
+						<input type="text" name="imienazwisko" style="width:90%;" placeholder="<?php echo $lang['name']; ?>"/><br />
+						<input type="text" name="email" style="width:44.6%" placeholder="E-Mail"/>
+						<input type="text" name="telefon" style="width:44.6%" placeholder="Telefon."/><br />
+
+						<textarea name="trescwiadomosci" cols="30" rows="6" style="width:90%;"placeholder="<?php echo $lang['massage']; ?>"></textarea><br />
 						<input type="submit" name="submit" value=<?php echo $lang['send']; ?>/> 
 						<input type="reset" name="reset" value=<?php echo $lang['clear']; ?>/>
 					</form>
                  </div>
 				<?php
 				/*sprawdzenie wypełnienia wszystkich pól*/
-				}elseif(!empty($_POST['imienazwisko']) && !empty($_POST['email']) && !empty($_POST['trescwiadomosci'])){
+				}elseif(!empty($_POST['imienazwisko']) && !empty($_POST['email']) && !empty($_POST['telefon'])  && !empty($_POST['trescwiadomosci'])){
 				if($_POST['email']){
 				$adresemail='adwmicro@adwmicro.pl, wasyl@adwmicro.pl';
-				$wiadomosc="Od: $_POST[imienazwisko] ($_POST[email])\n\n$_POST[trescwiadomosci]";
+				$wiadomosc="Od: $_POST[imienazwisko]\n\n($_POST[email])\n\n($_POST[telefon])\n\n$_POST[trescwiadomosci]" ;
 				$nadawca="From: $_POST[email]";
 					@mail($adresemail, "Formularz kontaktowy z www.adwa.adwmicro.pl", "$wiadomosc", "$nadawca");
 						echo "<span style=\'color: #00D800; font-weight: bold; \'>Dziękujemy, formularz został wysłany.</span>";
