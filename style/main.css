@@ -148,6 +148,9 @@ h6 {
 .transform-origin{
 (50%,50%);
 }
+#form{
+    z-index: 995;
+}
 #properties {
     width:100%;
     height:100%;
@@ -191,7 +194,7 @@ h6 {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin-top: -5%;
-    z-index: 52;
+    z-index: 111;
 }
 .twitter-share-button, .twitter-follow-button {
     vertical-align:middle;

@@ -23,15 +23,12 @@ require_once('multilanguage.php');
 			<li id="home"><a href="javascript:jumpScroll1()"><?php echo $lang['about']; ?></a></li>
 			<li id="news"><a href="javascript:jumpScroll2()"><?php echo $lang['group']; ?></a></li>
 			<li id="about"><a href="javascript:jumpScroll3()"><?php echo $lang['contact']; ?></a></li>
-
 			</ul>
 			<ul  class="fancyNap">
 			<li id="pl"><a href="?lang=pl"><img src="images/PLflag.png" height="100%" width="100%"></a></li>
-			</ul>
-						<ul  class="fancyNae">
+			</ul>						<ul  class="fancyNae">
 						<li id="eng"><a href="?lang=ang"><img src="images/GBflag.png" height="100%" width="100%"></img></a></li>
 						</ul>
-	
 	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -5000px;"></div>
 	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -4000px;"></div>
 	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -3000px;"></div>
@@ -52,11 +49,8 @@ require_once('multilanguage.php');
                     <p class="arrows">▼&nbsp;▼&nbsp;▼</p>
                 </td>
             </tr>
-
         </table>
     </div>
-
-
     <div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<table class="teamtable">
             <tr>
@@ -92,6 +86,7 @@ require_once('multilanguage.php');
 		 <?php
          if(empty($_POST['submit'])){
 			?>
+             <div id="form">
 					<form action="http://adwa.adwmicro.pl/index.php" method="post"> <!--nazwa strony na której znajduje się formularz-->
 							<?php echo $lang['name']; ?><br />
 						<input type="text" name="imienazwisko" style="width:90%;"/><br />
@@ -102,12 +97,11 @@ require_once('multilanguage.php');
 						<input type="submit" name="submit" value=<?php echo $lang['send']; ?>/> 
 						<input type="reset" name="reset" value=<?php echo $lang['clear']; ?>/>
 					</form>
+                 </div>
 				<?php
 				/*sprawdzenie wypełnienia wszystkich pól*/
 				}elseif(!empty($_POST['imienazwisko']) && !empty($_POST['email']) && !empty($_POST['trescwiadomosci'])){
-
 				if($_POST['email']){
-
 				$adresemail='adwmicro@adwmicro.pl, wasyl@adwmicro.pl';
 				$wiadomosc="Od: $_POST[imienazwisko] ($_POST[email])\n\n$_POST[trescwiadomosci]";
 				$nadawca="From: $_POST[email]";
@@ -122,18 +116,12 @@ require_once('multilanguage.php');
 					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Cofnij i wypełnij wszystkie pola formularza!!!</span>";
 					}
 		?>
-		
 	</div>
-
-
 	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
-
 	<script type="text/javascript" src="js/skrollr.min.js"></script>
-
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
 	<![endif]-->
-
 	<script type="text/javascript">
 	var s = skrollr.init({
 		edgeStrategy: 'set',
