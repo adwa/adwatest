@@ -64,9 +64,13 @@ h4 {
     font-size:1.11em;
     margin:1em 0;
 }
+h5{
+    text-align: center;
+    font-size: 0.5em;
+}
 h6 {
-    margin: 26px 0px 74px 80px;
-    text-align: left;
+    text-align: center;
+    font-size: 0.4em;
 }
 #progress {
     height:2%;

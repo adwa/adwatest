@@ -68,14 +68,14 @@ require_once('multilanguage.php');
                 <td width="33.3%"><img src="images/aboutusphoto/mk-min.png" class="foto"/></td>
             </tr>
             <tr class="my">
-                <td>Adrian Wojdat</td>
-                <td>Wasyl Onufriychuk</td>
-                <td>Michael Krasnopolskyi</td>
+                <td><h6>Adrian Wojdat</h6></td>
+                <td><h6>Wasyl Onufriychuk</h6></td>
+                <td><h6>Michael Krasnopolskyi</h6></td>
             </tr>
             <tr class="skils">
-                <td>PHP,CSS,JS,RoR</td>
-                <td>HTML,CSS,PHP</td>
-                <td>PhotoShop</td>
+                <td><h5>PHP,CSS,JS,RoR</h5></td>
+                <td><h5>HTML,CSS,PHP</h5></td>
+                <td><h5>PhotoShop</h5></td>
 </td>
             </tr>
         </table>
