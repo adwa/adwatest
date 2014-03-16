@@ -77,7 +77,7 @@ require_once('multilanguage.php');
 	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
 		<h2><?php echo $lang['description']; ?></h2>
 	</div>
-    <div id="easing_wrapper" data-0="display:none;" data-3000="display:block;" data-3500="background:rgba(223,183, 188, 0);color[swing]:rgb(223,183,188);" data-4000="background:rgba(223,183,188,1);color:rgb(223,183,188);">
+    <div id="easing_wrapper" data-0="display:none;" data-3000="display:block;" data-3500="background:rgba(16 ,125, 154, 0);color[swing]:rgb(16,125,154);" data-4000="background:rgba(16,125,154,1);color:rgb(16,125,154);">
     </div>
         <div id="contact" data-3500="top[cubic]:130%;0em;" data-4000="top:10%;">
 		<center><h2>Kontakt</h2>
