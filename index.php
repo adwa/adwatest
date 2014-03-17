@@ -77,7 +77,7 @@ require_once('multilanguage.php');
     <div id="easing_wrapper" data-0="display:none;" data-2500="display:block;" data-3000="background:rgba(20,121,149, 0);color[swing]:rgb(20,121,149);" data-3500="background:rgba(20,121,149,0.94);color:rgb(20,121,149);">
     </div><div class="center">
         <div id="contact" data-3500="top[cubic]:130%;0em;" data-4000="top:10%;">
-            <div class="contacttext"><h2>Kontakt</h2></div>
+            <div class="contacttext"><h2><?php echo $lang['contact']; ?></h2></div>
 		<a name="Kontakt"></a>
 		 <?php
 		         if(empty($_POST['submit'])){
