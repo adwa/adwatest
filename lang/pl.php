@@ -14,5 +14,5 @@ $lang['ritetoo'] ='Napisz do nas.';
 $lang['name'] ='Imię i Nazwisko:';
 $lang['massage'] ='Treść wiadomości:';
 $lang['send'] ='Wyślij formularz';
-$lang['clear'] ='Clear';
+$lang['clear'] ='Оczyścić';
 ?>
