@@ -75,13 +75,13 @@ require_once('multilanguage.php');
 		<h2><?php echo $lang['description']; ?></h2>
 	</div>
     <div id="easing_wrapper" data-0="display:none;" data-2500="display:block;" data-3000="background:rgba(20,121,149, 0);color[swing]:rgb(20,121,149);" data-3500="background:rgba(20,121,149,0.94);color:rgb(20,121,149);">
-    </div>
+    </div><div class="center">
         <div id="contact" data-3500="top[cubic]:130%;0em;" data-4000="top:10%;">
-            <div id="contacttext"><h2>Kontakt</h2></div>
+            <div class="contacttext"><h2>Kontakt</h2></div>
 		<a name="Kontakt"></a>
 		 <?php
 		         if(empty($_POST['submit'])){
-			?>
+			?><center>
              <div id="form">
 					<form action="http://adwa.adwmicro.pl/index.php" method="post">
 							
@@ -93,7 +93,7 @@ require_once('multilanguage.php');
 						<input type="submit" name="submit" value=<?php echo $lang['send']; ?>> 
 						<input type="reset" name="reset" value=<?php echo $lang['clear']; ?>>
 					</form>
-                 </div>
+                 </div></div>
 				<?php
 
 				}elseif(!empty($_POST['imienazwisko']) && !empty($_POST['email']) && !empty($_POST['telefon'])  && !empty($_POST['trescwiadomosci'])){
@@ -112,8 +112,8 @@ require_once('multilanguage.php');
 					 echo "<span style=\'color: #FF0000; text-align: center; font-weight: bold;\''>Cofnij i wypełnij wszystkie pola formularza!!!</span>";
 					}
 		?>
-	</div>
-	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+        </center></div>
+	<div id="scrslbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
 	<script type="text/javascript" src="js/skrollr.min.js"></script>
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="dist/skrollr.ie.min.js"></script>
