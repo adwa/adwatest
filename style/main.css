@@ -333,6 +333,25 @@ h6 {
         line-height: 69px;
     }
 }
+@media screen and (max-width: 930px) {
+    #contact {
+        width: 100%;
+        left: 0%;
+        height: 100%;
+        padding: 3em;
+        border: 0 solid #222;
+        background-image: url("../images/t2.jpg");
+        background-repeat: no-repeat;
+        background-size: 300%!important;
+        color: white;
+        opacity: 0.8;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-top: -5%;
+        z-index: 111;
+    }
+}
 @media screen and (max-width: 1210px) {
     #contact {
         width: 100%;
@@ -342,7 +361,7 @@ h6 {
         border: 0 solid #222;
         background-image: url("../images/t2.jpg");
         background-repeat: no-repeat;
-        background-size: 300%;
+        background-width: 100%;
         color: white;
         opacity: 0.8;
         -webkit-box-sizing: border-box;

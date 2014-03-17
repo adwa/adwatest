@@ -86,8 +86,8 @@ require_once('multilanguage.php');
 					<form action="http://adwa.adwmicro.pl/index.php" method="post">
 							
 						<input type="text" name="imienazwisko" style="width:90%;" placeholder="<?php echo $lang['name']; ?>"/><br />
-						<input type="text" name="email" style="width:44.6%" placeholder="E-Mail"/>
-						<input type="text" name="telefon" style="width:44.6%" placeholder="Telefon."/><br />
+						<input type="email" name="email" style="width:44.6%" placeholder="E-Mail"/>
+						<input type="tel" name="telefon" style="width:44.6%" placeholder="Telefon."/><br />
 
 						<textarea name="trescwiadomosci" cols="30" rows="6" style="width:90%;"placeholder="<?php echo $lang['massage']; ?>"></textarea><br />
 						<input type="submit" name="submit" value=<?php echo $lang['send']; ?>> 
