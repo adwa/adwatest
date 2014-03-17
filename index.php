@@ -36,12 +36,9 @@ require_once('multilanguage.php');
 	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
 
 	<div id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
-		<h1><?php echo $lang['about']; ?></h1>
-		<a name="Onas"></a>
-		<h2><?php echo $lang['wedidit']; ?></h2>
-		
+		<h1><?php echo $lang['about']; ?></h1>		
 		<p>
-        <table class="fortable" align="center">
+        <table class="fortable" align="center" >
             <tr>
                 <td height="100%" width="100%">
                     <img src="images/logo.png" class="logo" align="left"></img>
