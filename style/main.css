@@ -46,8 +46,10 @@ h1 > small {
 }
 h2 {
     color: rgb(41, 44, 121);
-    font-size: 1.91em;
+    font-size: 1.07em;
     margin: 1em 0 1em 0;
+    margin-top: 2% !important;
+    line-height: 69px;
 }
 h2:first-child {
     margin-top:0;
@@ -148,11 +150,13 @@ h6 {
 .transform-origin{
 (50%,50%);
 }
-#form{
+#form {
     z-index: 995;
+    width: 70%;
+    margin-top: 10%;
 }
 #properties {
-    width:100%;
+    width:70%;
     height:100%;
     padding-top:10%;
     text-align:center;
@@ -161,6 +165,7 @@ h6 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin-left:15%;
 }
 #easing_wrapper {
     width:100%;
@@ -226,7 +231,7 @@ h6 {
 .fortable{
     width:82%;
     height:100%;
-    font-size: 1.4em !important;
+    font-size: 2.4em !important;
     line-height: 1.5em;
     margin-top: -3%;
     font-weight: bold;
@@ -260,6 +265,7 @@ h6 {
     }
 
 
+
 }
 @media screen and (max-width: 750px) {
     .fortable{
@@ -278,6 +284,13 @@ h6 {
     h5 {
         text-align: center;
         font-size: 0.49em !important;
+    }
+    h2 {
+        color: rgb(41, 44, 121);
+        font-size: 0.42em !important;
+        margin: 1em 0 1em 0;
+        margin-top: 2% !important;
+        line-height: 69px;
     }
   
 
@@ -311,6 +324,13 @@ h6 {
     .foto {
         width: 75%;
         height: 70% !important;
+    }
+    h2 {
+        color: rgb(41, 44, 121);
+        font-size: 0.81em;
+        margin: 1em 0 1em 0;
+        margin-top: 2% !important;
+        line-height: 69px;
     }
 
 
