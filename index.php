@@ -59,7 +59,7 @@ require_once('multilanguage.php');
     <div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
 		<table class="teamtable">
             <tr>
-            <td colspan="3"><h2>Amentes Team Development</h2></td>
+            <td colspan="3"><div class="amentes"><h2>Amentes Team Development</h2></div></td>
             </tr>
             <tr class="ourphoto">
                 <td width="33.3%"><img src="images/aboutusphoto/aw-min.png" class="foto"/></td>
@@ -80,7 +80,7 @@ require_once('multilanguage.php');
         </table>
 </div>
 	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
-		<h2><?php echo $lang['description']; ?></h2>
+		<h2><div class="ofer"><?php echo $lang['oferujemy']; ?></div><?php echo $lang['description']; ?></h2>
 	</div>
     <div id="easing_wrapper" data-0="display:none;" data-2500="display:block;" data-3000="background:rgba(20,121,149, 0);color[swing]:rgb(20,121,149);" data-3500="background:rgba(20,121,149,0.94);color:rgb(20,121,149);">
     </div><div class="center">
