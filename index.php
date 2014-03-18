@@ -7,7 +7,7 @@ require_once('multilanguage.php');
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>ADWA TEAM</title>
+	<title>ADWA TEAM pozycjonowanie stron, tworzenie stron www, CMS, WordPress, portfolio, PHP, HTML</title>
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
 	<link href="style/fixed-positioning.css" rel="stylesheet" type="text/css" />
 	<link href="style/main.css" rel="stylesheet" type="text/css" />
