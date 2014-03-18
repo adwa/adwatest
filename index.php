@@ -16,6 +16,7 @@ require_once('multilanguage.php');
 	<link href="style/menujen.css" rel="stylesheet" type="text/css" />
 	<link rel="SHORTCUT ICON" href="images/icon.png"type="image/x-icon">
     <link href='http://fonts.googleapis.com/css?family=Flavors' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="fancyNaw"></div>
@@ -41,10 +42,17 @@ require_once('multilanguage.php');
         <table class="fortable" align="center" >
             <tr>
                 <td height="100%" width="100%">
-                    <img src="images/logo.png" class="logo" align="left"></img>
+
                     <p><?php echo $lang['weare']; ?></p>
-                    <p class="arrows">▼&nbsp;▼&nbsp;▼</p>
+
                 </td>
+            </tr>
+            <tr>
+             <td>
+                 <img src="images/logo.png" class="logo" ></img>
+                 <p class="arrows">▼&nbsp;▼&nbsp;▼</p>
+
+            </td>
             </tr>
         </table>
     </div>
